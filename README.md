@@ -1,3 +1,5 @@
+<img src="https://socialify.git.ci/juniorSarh/Library_Management_System_PostgreSQL/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Library_Management_System_PostgreSQL" width="640" height="320" />
+
 ### How to run project
 ## 1. clone project
 ```
