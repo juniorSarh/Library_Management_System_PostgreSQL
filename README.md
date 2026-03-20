@@ -1,3 +1,24 @@
+### How to run project
+## 1. clone project
+```
+bash
+git clone https://github.com/juniorSarh/Library_Management_System_PostgreSQL
+
+cd Library_Management_System_PostgreSQL
+```
+## 2. How to run on PgAdmin4
+Setting Up Your Database in pgAdmin 4
+
+Open pgAdmin 4:
+
+Launch pgAdmin 4 from your applications menu or desktop shortcut.
+
+Create a New Database:
+
+In the Browser panel, right-click on Databases.
+Select Create > Database.
+Name it LibraryDB and Click Save or use query below .
+
 #### Sprint 1: Project Setup
 
 - Create a new database LibraryDB.
@@ -6,6 +27,20 @@
 CREATE DATABASE LibraryDB;
 ```
 
+
+Connect to the Database:
+
+Double-click LibraryDB to open it.
+
+Creating Tables
+
+Open Query Tool:
+
+Right-click on LibraryDB.
+Choose Query Tool.
+
+
+Create the Tables: 
 - Create the required tables: Books, Authors, Patrons.
 
 ```SQL
@@ -153,7 +188,7 @@ WHERE id = 2
 
 ```sql
 SELECT * FROM Books
-WHERE published_year >= 1950
+WHERE published_year > 1950
 ```
 
 - Find all American authors.
@@ -181,7 +216,7 @@ WHERE available = true AND published_year > 1950
 
 ```sql
 SELECT * FROM Authors
-WHERE name LIKE 'George%'
+WHERE name ILIKE '%George%'
 ```
 
 - Increment the published year 1869 by 1.
