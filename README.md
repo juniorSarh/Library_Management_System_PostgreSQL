@@ -1,8 +1,9 @@
 <img src="https://socialify.git.ci/juniorSarh/Library_Management_System_PostgreSQL/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Library_Management_System_PostgreSQL" width="640" height="320" />
+
 # Project Description
----
+
 The Library Management System is a comprehensive database application designed to manage a library's collection of books, authors, and patrons. Built using PostgreSQL, this system enables librarians and staff to efficiently perform essential operations such as adding new records, viewing existing data, updating information, and deleting outdated entries.
----
+
 ### How to run project
 ## 1. clone project
 ```
